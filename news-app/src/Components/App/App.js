@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import NewsSearchBar from "../NewsSearchBar/NewsSearchBar";
 import "./App.css";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>News App</h1>
+    <NewsSearchBar dataArticles={data}/>
     </div>
   );
 }

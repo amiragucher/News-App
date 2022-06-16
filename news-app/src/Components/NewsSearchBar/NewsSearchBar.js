@@ -1,7 +1,9 @@
-export default function NewsSearchBar (){
+export default function NewsSearchBar ({dataArticles}){
     return (
         <>
-        <p>Hello are you working?</p>
+        {dataArticles.map ((article) =>
+        <p>{article.title}</p>
+        )}
         </>
     )
 }
