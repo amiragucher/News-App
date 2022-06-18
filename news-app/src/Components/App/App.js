@@ -17,7 +17,8 @@ function App() {
 
   return (
     <div className="App">
-    <NewsSearchBar dataArticles={data}/>
+    <NewsSearchBar setData={setData}/>
+    
     </div>
   );
 }
