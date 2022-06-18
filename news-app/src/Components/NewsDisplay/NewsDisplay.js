@@ -3,7 +3,7 @@ import NewsSearchBar from "../NewsSearchBar/NewsSearchBar";
 export default function NewsDisplay ({data}){
     return (
         <div>
-        data.map((data) => (
+        data.map((data) => ({
         <ol key = { data.id }>
         title={data.title}
         description={data.description} 
@@ -12,7 +12,7 @@ export default function NewsDisplay ({data}){
         image={data.image}
         publishedAt={data.publishedAt}
         source={data.source}
-        name={data.source.name}
+        name={data.source.name}S
         sourceUrl={data.source.url} 
         </ol>
         </div>
