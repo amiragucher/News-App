@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import NewsDisplay from "../NewsDisplay/NewsDisplay";
 import NewsSearchBar from "../NewsSearchBar/NewsSearchBar";
 import "./App.css";
 
@@ -18,6 +19,9 @@ function App() {
   return (
     <div className="App">
     <NewsSearchBar setData={setData}/>
+    <NewsDisplay data={setData}/>
+   
+    
     
     </div>
   );
