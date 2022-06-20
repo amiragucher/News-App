@@ -1,9 +1,11 @@
-import NewsSearchBar from "../../NewsSearchBar/NewsSearchBar";
+export default function NewsItem ({title, description, conttent, url, publisedAt, source, sourceName, sourceUrl}){
 
-export default function NewsItem (data){
     return (
+        <div>
+         
+         <h2>{title}</h2>
+         
+          
+        </div>
         
-        <h1>{data.titles}</h1>
-
-    
     )}

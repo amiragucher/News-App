@@ -1,30 +1,28 @@
-import NewsSearchBar from "../NewsSearchBar/NewsSearchBar"
+import NewsItem from "./NewsItem/NewsItem"
+
 
 export default function NewsDisplay ({data}){
     return (
         <div>
-        {
-        data.map((data) => {
-        return(  
-            <NewsSearchBar
-            title={data.title}
-            description={data.description}
-            content={data.content}
-            url={data.url}
-            image={data.image}
-            publishedAt={data.publishedAt}
-            source={data.source}
-        // name={data.source.name}
-        // sourceUrl={data.source.url} 
-        /> 
-           
+            {
+            data.map((item) => {
+            return(
+                <NewsItem
+                title={item.title}
+                description={item.description}
+                content={item.content}
+                url={item.url}
+                publishedAt={item.publishedAt}
+                source={item.source}
+                sourceName={item.source.name}
+                sourceUrl={item.source.url}
+                />
+            )
+            })
+            }
+          
+        </div>
         
-         ) 
-     })
-     } 
-    
-    </div>
-    )
-   
-}
+    )}
+
 
