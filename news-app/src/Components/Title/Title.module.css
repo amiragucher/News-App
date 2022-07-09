@@ -5,3 +5,17 @@
     font-size: 70px;
     text-decoration: underline;
 }
+
+.TitleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+}
+.TitleBannerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70em;
+   
+}

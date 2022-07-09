@@ -1,3 +1,21 @@
 .Animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("./Animation.gif");
+    background-repeat: no-repeat;
+     height: 10em;
+    width: 10em;
+    margin-top: 0px;
 }
+
+.AnimationContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 20em;
+    height: 20em;
+    margin-top: 0px;
+    
+}
+

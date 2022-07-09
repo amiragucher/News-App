@@ -3,6 +3,7 @@ import NewsDisplay from "../NewsDisplay/NewsDisplay";
 import NewsSearchBar from "../NewsSearchBar/NewsSearchBar";
 import Title from "../Title/Title";
 import Animation from "../Animation/Animation";
+import Style from "../Title/Title.module.css"
 import "./App.css";
 
 function App() {
@@ -20,8 +21,10 @@ function App() {
 
   return (
     <div className="App">
-    <Title/>
+      <div className={Style.TitleBannerContainer}>
     <Animation/>
+    <Title/>
+    </div>
     <NewsSearchBar setData={setData} /> 
     <NewsDisplay data={data} />
   </div>
