@@ -16,6 +16,7 @@ export default function NewsDisplay ({data}){
                 source={item.source}
                 sourceName={item.source.name}
                 sourceUrl={item.source.url}
+                image={item.image}
                 />
             )
             })

@@ -21,7 +21,7 @@ function handleClick(){
     return (
         <>
       <button onClick={GetNewData}>Get Articles</button>
-      <input type="text" onChange={(e) =>{setSearchInput(e.target.value)}}/>
+      <input type="text" onClick={handleClick} onChange={(e) =>{setSearchInput(e.target.value)}}/>
         </>
     )
     }

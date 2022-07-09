@@ -18,9 +18,10 @@ function App() {
 
   return (
     <div className="App">
+    <h1>News App</h1>
     <NewsDisplay data={data} />
-    <NewsSearchBar setData={setData} />
-    </div>
+   <NewsSearchBar setData={setData} /> 
+  </div>
   );
 }
 
