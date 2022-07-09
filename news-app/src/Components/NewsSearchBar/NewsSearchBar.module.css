@@ -1,0 +1,19 @@
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 2em;
+}
+
+.SearchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

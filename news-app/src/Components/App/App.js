@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import NewsDisplay from "../NewsDisplay/NewsDisplay";
 import NewsSearchBar from "../NewsSearchBar/NewsSearchBar";
+import Title from "../Title/Title";
+import Animation from "../Animation/Animation";
 import "./App.css";
 
 function App() {
@@ -18,9 +20,10 @@ function App() {
 
   return (
     <div className="App">
-    <h1>News App</h1>
+    <Title/>
+    <Animation/>
+    <NewsSearchBar setData={setData} /> 
     <NewsDisplay data={data} />
-   <NewsSearchBar setData={setData} /> 
   </div>
   );
 }

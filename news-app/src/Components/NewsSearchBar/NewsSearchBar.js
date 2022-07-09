@@ -1,4 +1,6 @@
 import {useState} from "react"
+import Style from "./NewsSearchBar.module.css"
+import { Button } from "@nextui-org/react";
 
 export default function NewsSearchBar ({setData}){
 const [randomArticles, setRandomArticles] = useState("") 
@@ -19,10 +21,10 @@ function handleClick(){
       };
     
     return (
-        <>
-      <button onClick={GetNewData}>Get Articles</button>
-      <input type="text" onClick={handleClick} onChange={(e) =>{setSearchInput(e.target.value)}}/>
-        </>
+        <div className={Style.SearchContainer}>
+      <Button className={Style.Button} onClick={GetNewData}>Get Articles</Button>
+      <input className={Style.Input} type="text" onClick={handleClick} onChange={(e) =>{setSearchInput(e.target.value)}} placeholder="Search here"/>
+        </div>
     )
     }
 
