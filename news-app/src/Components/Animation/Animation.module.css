@@ -7,9 +7,10 @@
      height: 10em;
     width: 10em;
     margin-top: 0px;
+    
 }
 
-.AnimationContainer{
+/* .AnimationContainer{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -17,5 +18,5 @@
     height: 20em;
     margin-top: 0px;
     
-}
+} */
 
