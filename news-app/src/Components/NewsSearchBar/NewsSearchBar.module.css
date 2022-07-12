@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(47, 63, 117);
+
 }
 
 .Input{
@@ -14,17 +16,12 @@
     border-color: aliceblue;
 }
 
-/* .SearchContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-} */
-
 .TitleBannerContainer{
     margin-bottom: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2em;
+    width: 100vw;
     background-color: rgb(224, 10, 10);
 }

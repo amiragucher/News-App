@@ -4,22 +4,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 50px;
     grid-template-rows: 1fr 1fr 1fr 80px;
-    background-color: blue;
+    background-color: rgb(229, 229, 229);
     grid-gap: 10px 10px; 
     max-height: 500px;
     max-width: 500px;
-
-   
 }
 
 .ArticleTitle{
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
 .Image {
     max-height: 500px;
     max-width: 500px;
-
-
 }
