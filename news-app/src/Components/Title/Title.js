@@ -4,7 +4,7 @@ export default function Title (){
     return (
         <div className={Style.TitleBannerContainer}>
          
-            <h1 className={Style.Title}>Global News Today</h1>
+            <h1 className={Style.Title}>GLOBAL NEWS TODAY</h1>
             
         </div>
     )

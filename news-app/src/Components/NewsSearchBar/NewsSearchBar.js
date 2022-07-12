@@ -7,7 +7,7 @@ const [randomArticles, setRandomArticles] = useState("")
 const [searchInput, setSearchInput] = useState([])   
 function handleClick(){
         let randomArticles = Math.floor(Math.random() *100);
-        setRandomArticles(randomArticles);
+        setRandomArticles(randomArticles); 
         console.log("Random article")
         console.log(randomArticles)
     }
@@ -21,9 +21,11 @@ function handleClick(){
       };
     
     return (
-        <div className={Style.SearchContainer}>
+        <div className={Style.SearchContainer}> 
+          <div className={Style.TitleBannerContainer}>
       <Button className={Style.Button} onClick={GetNewData}>Get Articles</Button>
       <input className={Style.Input} type="text" onClick={handleClick} onChange={(e) =>{setSearchInput(e.target.value)}} placeholder="Search here"/>
+        </div>
         </div>
     )
     }
