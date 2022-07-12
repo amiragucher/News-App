@@ -1,10 +1,11 @@
-export default function NewsItem ({title, description, conttent, url, publisedAt, source, sourceName, sourceUrl,image}){
+import Style from "./NewsItem.module.css"
 
+export default function NewsItem ({title, description, conttent, url, publisedAt, source, sourceName, sourceUrl,image}){
     return (
-        <div>
-         <h2>{title}</h2>
+        <div className={Style.ArticlesContainer}>
+         <h2 className={Style.ArticleTitle}>{title}</h2>
          <a href={sourceUrl}>
-        <img src={image}  />
+        <img className={Style.Image} src={image}  />
         </a>  
         </div>
         

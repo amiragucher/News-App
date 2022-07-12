@@ -1,0 +1,25 @@
+.ArticlesContainer{
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 50px;
+    grid-template-rows: 1fr 1fr 1fr 80px;
+    background-color: blue;
+    grid-gap: 10px 10px; 
+    max-height: 500px;
+    max-width: 500px;
+
+   
+}
+
+.ArticleTitle{
+
+}
+
+
+.Image {
+    max-height: 500px;
+    max-width: 500px;
+
+
+}
