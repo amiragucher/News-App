@@ -23,7 +23,7 @@ function handleClick(){
     return (
         <div className={Style.SearchContainer}> 
           <div className={Style.TitleBannerContainer}>
-      <Button color="warning" className={Style.Button} onClick={GetNewData}>Get Articles</Button>
+      <Button color="warning" className={Style.Button} onClick={GetNewData}>Get Articles 🔎</Button>
       <input className={Style.Input} type="text" onClick={handleClick} onChange={(e) =>{setSearchInput(e.target.value)}} placeholder="Search here"/>
         </div>
         </div>
